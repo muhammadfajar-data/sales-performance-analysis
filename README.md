@@ -34,7 +34,7 @@ The dataset is not included in this repository. Please obtain it from the origin
 4. **Business Opportunity:** The differences in sales across regions and categories could be investigated further to identify opportunities for improvement.
 
 ## Dashboard
-
+![Sales Performance Dashboard](dashboard.png)
 The Power BI dashboard includes:
 
 * Total Sales
