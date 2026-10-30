@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-This project analyzes retail sales data using Python and Power BI to identify sales trends and performance across product categories, regions, and customer segments.
+This project analyzes retail sales data using Python and Power BI to identify sales trends, customer purchasing behavior, and performance across product categories, regions, and customer segments.
+
+The objective is to transform raw sales data into meaningful business insights that support data-driven decision-making.
 
 ## Business Objectives
 
@@ -10,7 +12,8 @@ This project analyzes retail sales data using Python and Power BI to identify sa
 * Identify the highest-performing product categories.
 * Compare sales performance across regions.
 * Understand sales distribution across customer segments.
-* Build an interactive dashboard to support data-driven decision-making.
+* Investigate factors contributing to sales declines.
+* Build an interactive dashboard to support business analysis.
 
 ## Tools
 
@@ -28,13 +31,24 @@ The dataset is not included in this repository. Please obtain it from the origin
 
 ## Key Insights
 
-1. **Sales Growth:** Sales declined by 4.26% in 2016, then increased by 30.64% in 2017 and 20.30% in 2018.
-2. **Top Category:** Technology generated the highest sales at approximately $827,455.87.
-3. **Regional Performance:** The West region recorded the highest sales at approximately $710,219.68, while the South recorded the lowest at approximately $389,151.46.
-4. **Business Opportunity:** The differences in sales across regions and categories could be investigated further to identify opportunities for improvement.
+1. **Overall Sales Performance:** Total sales reached approximately 2.26 million. Sales declined by 4.26% in 2016, then increased by 30.64% in 2017 and 20.30% in 2018.
+
+2. **Top Category:** Technology generated the highest sales at approximately 827,455.87, followed by Furniture and Office Supplies.
+
+3. **Regional Performance:** The West region recorded the highest sales at approximately 710,219.68, while the South recorded the lowest at approximately 389,151.46.
+
+4. **Customer Analysis:** Office Supplies sales declined by approximately 10.96% from 2015 to 2016. Although 174 new customers were acquired, sales from retained customers decreased.
+
+5. **Sub-Category Analysis:** Binders experienced the largest decline among retained customers, decreasing by approximately 15,949.10. Supplies also experienced a significant decline.
+
+6. **Customer Segment:** Corporate experienced the largest sales decline in Office Supplies, while its order count remained almost unchanged.
+
+7. **Shipping Performance:** Average shipping duration was approximately 3.96 days. Standard Class had an average shipping duration of approximately 5 days.
 
 ## Dashboard
+
 ![Sales Performance Dashboard](dashboard.png)
+
 The Power BI dashboard includes:
 
 * Total Sales
@@ -50,7 +64,10 @@ The Power BI dashboard includes:
 
 * `sales_analysis.ipynb` — Python analysis notebook.
 * `Sales_Performance_Dashboard.pbix` — Interactive Power BI dashboard.
+* `dashboard.png` — Dashboard preview.
 
 ## Conclusion
 
-This project demonstrates the use of Python for data analysis and Power BI for interactive sales reporting. The findings provide an overview of sales performance and highlight areas for further investigation.
+This project demonstrates the use of Python for exploratory data analysis and Power BI for interactive sales reporting. The analysis identifies overall sales trends, customer purchasing behavior, and specific areas contributing to declining sales.
+
+These findings provide a foundation for further investigation and more informed business decisions.
